@@ -1,0 +1,10 @@
+{
+    "version": 0,
+    "wifi": {
+        "ssid": "my-ssid",
+        "key": "my-key"
+    },
+    "mqtt": {
+        "host": "my-mqtt-broker-host"
+    }
+}
