@@ -15,8 +15,6 @@ difference() {
             /* the two holes for the buttons */
             translate([7.0,9.0,-0.1]) cylinder(d=3, h=2.2, $fn=60);
             translate([7.0,width-9.0,-0.1]) cylinder(d=3, h=2.2, $fn=60);
-            /* wifi logo */
-            /*translate([length-28,width/2 + 13,-0.1]) rotate([0, 0, 270]) linear_extrude(height =2.2) import(file = "wifi.dxf", layer = "wifi");*/
         }
         
         /* mid part */
@@ -34,10 +32,6 @@ difference() {
                     translate([1.55, 1.65, -0.1]) roundCornersCube(length-1.45*2, width-1.65*2, 4.2, 1.65);
                     translate([-0.1, width/2-12/2, -0.1]) cube([1.75+1.65+0.2, 12, 5.2]);
                 }
-                /*translate([1.5, 5+1.65, 2]) sphere(r = 1, $fn=60);
-                translate([1.5, width-1.65-5, 2]) sphere(r = 1, $fn=60);
-                translate([length-1.5, 5+1.65, 2]) sphere(r = 1, $fn=60);
-                translate([length-1.5, width-1.65-5, 2]) sphere(r = 1, $fn=60);*/
             }
         }
     }
